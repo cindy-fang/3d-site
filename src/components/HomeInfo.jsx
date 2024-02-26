@@ -15,30 +15,30 @@ const InfoBox = ({ text, link, btnText }) => (
 const renderContent = {
     1: (
         <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-            Bonejaw, I'm <span className="font-semibold"> Cindy </span> 👋
+            Hello, I'm <span className="font-semibold"> Cindy Fang </span> 👋
             <br/>
-            It's 2:43am I want sleep or death.
+            Welcome to my corner of the internet.
         </h1>
     ),
     2: (
         <InfoBox 
-            text="looking for star, looking for love, looking for star, looking for love"
+            text="Step into the island sanctuary and discover the untold tales of my adventures!"
             link="/about"
             btnText="Learn more"
         />
     ),
     3: (
         <InfoBox 
-            text="eight makes one team, annyeonghello ateez ibnida"
+            text="Embark on a journey through my digital island of projects. Dive in and explore the wonders!"
             link="/projects"
             btnText="Visit my portfolio"
         />    
     ),
     4: (
         <InfoBox 
-            text="hongjoong seonghwa yunho yeosang sani mingi wooyoung jongho"
+            text="Drop anchor and reach out to me on the island! Let's connect and navigate the digital seas together."
             link="/contact"
-            btnText="Let's talk"
+            btnText="Send a message"
         />    
     ),
 }
