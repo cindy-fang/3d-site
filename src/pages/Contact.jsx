@@ -69,7 +69,7 @@ const Contacts = () => {
                     type="text" 
                     name="name" 
                     className="input"
-                    placeholder="San"
+                    placeholder="Name"
                     required
                     value={form.name}
                     onChange={handleChange}
@@ -83,7 +83,7 @@ const Contacts = () => {
                     type="email" 
                     name="email" 
                     className="input"
-                    placeholder="8m1t@gmail.com"
+                    placeholder="Email"
                     required
                     value={form.email}
                     onChange={handleChange}
@@ -97,7 +97,7 @@ const Contacts = () => {
                     name="message" 
                     rows={4}
                     className="textarea"
-                    placeholder="8 makes 1 team"
+                    placeholder="Message"
                     required
                     value={form.message}
                     onChange={handleChange}
